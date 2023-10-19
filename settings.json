@@ -1,0 +1,71 @@
+{
+    "word_size": 5,
+    "num_guesses": 6,
+    "word_list_file": "long_wordlist.txt",
+    "ui": {
+        "window_width": 750,
+        "incorrect_color": "grey",
+        "misplaced_color": "orange",
+        "correct_color": "green",
+        "font_family": "ariel",
+        "guesses": {
+            "frame_width": 750,
+            "frame_height": 500,
+            "letter_box_size": 50,
+            "letter_padding": 3,
+            "initial_bg_color": "white",
+            "initial_text_color": "black",
+            "updated_text_color": "white",
+            "letter_font_size": 35,
+            "process_wait_time": 1
+        },
+        "messages": {
+            "frame_height": 25,
+            "font_size": 20,
+            "display_time": 10
+        },
+        "keyboard": {
+            "frame_height": 200,
+            "key_height": 2,
+            "key_width": 3,
+            "key_width_long": 5,
+            "text_color": "black",
+            "key_layout": [
+                [
+                    "Q",
+                    "W",
+                    "E",
+                    "R",
+                    "T",
+                    "Y",
+                    "U",
+                    "I",
+                    "O",
+                    "P"
+                ],
+                [
+                    "A",
+                    "S",
+                    "D",
+                    "F",
+                    "G",
+                    "H",
+                    "J",
+                    "K",
+                    "L"
+                ],
+                [
+                    "ENTER",
+                    "Z",
+                    "X",
+                    "C",
+                    "V",
+                    "B",
+                    "N",
+                    "M",
+                    "BACK"
+                ]
+            ]
+        }
+    }
+}
